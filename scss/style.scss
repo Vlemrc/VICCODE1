@@ -26,7 +26,7 @@
 
 header {
     grid-area:header;
-    background:linear-gradient(to right, var(--primary), var(--light));
+    background:linear-gradient(to right, var(--dark), var(--primary));
     padding:8rem 5rem;
     text-align: center;
     color:white;
@@ -129,6 +129,7 @@ aside {
         .stars-container {
             display:flex;
             margin: 2rem 0 3rem 0;
+            color:var(--primary);
             i {
                 font-size: 2rem;
                 margin:0 1rem;
